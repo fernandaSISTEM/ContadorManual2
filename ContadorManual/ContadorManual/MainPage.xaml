@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContadorManual.MainPage">
+
+    <StackLayout>
+        <Frame Margin="16" CornerRadius="0" BorderColor="LightGray"/>
+
+        <Label Text="Conteo:" FontSize="Large" Margin="8" />
+
+        <Label Text="0"  Margin="16" FontSize="42" HorizontalOptions="Center" x:Name="ConteoLabel"/>
+
+
+
+        <StackLayout Orientation="Horizontal" Margin="16">
+
+            <Button HorizontalOptions="Center" Text="Contar" FontSize="Medium" x:Name="ContarButton" Clicked="ContarButton_Clicked" />
+
+
+
+            <Button Text="Reiniciar" FontSize="Medium" x:Name="ReiniciarButton" Clicked=" ReiniciarButton_Click"/>
+
+
+
+        </StackLayout>
+    </StackLayout>
+
+   
+
+</ContentPage>
